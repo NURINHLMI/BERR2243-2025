@@ -1,0 +1,19 @@
+{
+	"info": {
+		"_postman_id": "980992ec-7031-47a2-a638-68f078f6b4e5",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44026083",
+		"_collection_link": "https://nurin-184279.postman.co/workspace/Nurin's-Workspace~78902a50-a06d-49a5-8fc5-7ccc816309f0/collection/44026083-980992ec-7031-47a2-a638-68f078f6b4e5?action=share&source=collection_link&creator=44026083"
+	},
+	"item": [
+		{
+			"name": "rides",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

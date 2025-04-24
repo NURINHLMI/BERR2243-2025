@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>eHailing Dashboard</title>
+</head>
+<body>
+  <h1>eHailing Dashboard</h1>
+
+  <!-- User Registration -->
+  <section>
+    <h2>Register User</h2>
+    <input id="regName" placeholder="Name" />
+    <input id="regEmail" placeholder="Email" />
+    <input id="regPassword" placeholder="Password" type="password"/>
+    <button onclick="registerUser()">Register</button>
+  </section>
+
+  <!-- User Login -->
+  <section>
+    <h2>User Login</h2>
+    <input id="loginEmail" placeholder="Email" />
+    <input id="loginPassword" placeholder="Password" type="password"/>
+    <button onclick="loginUser()">Login</button>
+  </section>
+
+  <!-- Update Driver Status -->
+  <section>
+    <h2>Update Driver Status</h2>
+    <input id="driverId" placeholder="Driver ID" />
+    <input id="driverStatus" placeholder="Status (e.g. available)" />
+    <button onclick="updateDriverStatus()">Update Status</button>
+  </section>
+
+  <!-- Delete User -->
+  <section>
+    <h2>Delete User</h2>
+    <input id="deleteUserId" placeholder="User ID" />
+    <button onclick="deleteUser()">Delete User</button>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
