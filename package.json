@@ -18,6 +18,11 @@
   },
   "homepage": "https://github.com/NURINHLMI/BERR2243-2025#readme",
   "dependencies": {
-    "mongodb": "^6.15.0"
+    "express": "^5.1.0",
+    "mongodb": "^6.15.0",
+    "mongoose": "^8.13.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
